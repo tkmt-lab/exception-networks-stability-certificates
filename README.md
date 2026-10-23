@@ -42,7 +42,7 @@ python3 -m pip install -r requirements.txt
 ```
 
 Dependency installation uses the network. The verification command itself runs
-offline, in one process at a time, with a 120-second limit for each of its six
+offline, with one checker subprocess at a time and a 120-second limit for each of its six
 subprocesses. It requires a writable copy, creates temporary files beside the
 runner, and removes them on completion. It leaves the saved certificates intact.
 Exit status 0 means every comparison passed; a failed check returns nonzero.
@@ -57,8 +57,10 @@ PASS: 2 networks, 3 samples, 9 equilibria; both implementations agree
 The runner checks file hashes, constructs the reactant and stoichiometric matrices,
 checks the symbolic identities, recomputes every supplied certificate, and matches
 the equilibria between the two parametrizations. Timing and interpreter-version
-fields in historical records are not required to match. The mathematical fields,
-including the rational intervals, must match exactly. The written arguments about
+fields in historical records are not required to match. Each implementation's
+recomputed mathematical fields, including rational intervals, must match its own
+saved certificates exactly. The reconciliation checks that the two parametrizations
+identify the same equilibria and stability signs. The written arguments about
 positive branches and root signs remain prose proofs; this command is not a proof
 assistant checking every step. [VERIFICATION-RECORD.md](VERIFICATION-RECORD.md)
 describes the earlier work and the local package check.
@@ -124,8 +126,8 @@ the first derivation, implementation or certificate outputs. That check used
 The first used `t=z/y` for A and `y` for B. The comparison matched all nine
 equilibria and their stability signs. The task given to the second checker already
 stated the expected conclusions and sample counts, so this was not blind testing.
-The package preparation used both implementations. No human expert review or
-formal proof has been completed.
+The package preparation used both implementations. No proof-assistant
+formalization has been completed.
 
 [provenance.json](provenance.json) gives the research commits and hashes.
 The unchanged pre-comparison files are identified separately from the current
@@ -151,8 +153,8 @@ excluded from every positive-equilibrium count.
 
 Tatsuhiko Takimoto is responsible for this package. Claude and Codex were used
 for derivations, implementation, computation, literature checking and drafting.
-The distinct implementations and AI editorial review are described by their
-scope; they are not human peer review.
+Neither the comparison of implementations nor the AI editorial review
+constitutes human peer review.
 
 - Xiaoxian Tang and Jiandong Zhang, *The Ubiquity of Three Steady States:
   Minimal Multistable Zero-One Reaction Networks*,

@@ -13,8 +13,9 @@ Jacobian interval arithmetic. It used `t=z/y` for A and `y` for B. The files und
 Its all-parameter stability argument invokes Tang–Zhang Lemma 3.
 
 The second implementation reconstructed mass-action equations from the input
-matrices, eliminated `x,y` with `z` retained, and proved positivity of the first
-two Hurwitz determinants directly from the equilibrium fluxes. It used SymPy
+matrices and eliminated `x,y` with `z` retained. The accompanying derivation
+proved positivity of the first two Hurwitz determinants directly from the
+equilibrium fluxes. The implementation used SymPy
 for identities and a separate Fraction polynomial implementation for Sturm
 chains and rational intervals. `check_certificates.py` rechecked the nine roots
 using three sign-changing intervals plus cubic degree and 63 zero-free rational
@@ -67,7 +68,24 @@ all-parameter root bound remain part of the mathematical evidence to inspect.
 
 ## Local package check
 
-The package is prepared for a clean-clone run with Python 3.14, SymPy 1.14.0 and
-mpmath 1.3.0. The measured run and its exact commit are recorded by the research
-packaging report. GitHub CI is configured to run the same command on Ubuntu;
-it has not been run remotely at this preparation stage.
+On 2026-10-24 JST, a local clone of package commit
+`81e9df591df0fbfea611580893f748dcacb885fa` passed the command below in a newly
+created virtual environment. This is the initial package commit, before the
+editorial clarifications to README.md and this record.
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install --disable-pip-version-check -r requirements.txt
+.venv/bin/python -B verify.py
+```
+
+The environment was macOS, Python 3.14.7, SymPy 1.14.0 and mpmath 1.3.0.
+Verification took 20.83 seconds and returned exit status 0. The complete clone,
+installation and verification took 26.49 seconds, with maximum resident set size
+173,998,080 bytes. These are maintainer-reported measurements, not a separate
+review. The original research workspace supplied no runtime input files.
+
+The final preparation report, including the subsequent check of the final
+package commit, is kept in the research workspace and is not bundled here.
+GitHub CI is configured to run the same verification command on Ubuntu; it has
+not been run remotely at this preparation stage.
