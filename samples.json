@@ -1,0 +1,45 @@
+{
+  "rate_order": "kappa1,...,kappa6 = a,b,c,d,e,f; exact rational strings",
+  "samples": [
+    {
+      "id": "A33449-1",
+      "candidate_index": 33449,
+      "kappa": [
+        "109/32768",
+        "235/256",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "source": "https://github.com/zjdong-sudo/paper-multistability-results/blob/323360df12c0787f9bbf7f223a6229b98233be39/data/check_multistability_2.txt#L399-L402"
+    },
+    {
+      "id": "A33449-2",
+      "candidate_index": 33449,
+      "kappa": [
+        "33/131072",
+        "31/32",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "source": "https://github.com/zjdong-sudo/paper-multistability-results/blob/323360df12c0787f9bbf7f223a6229b98233be39/data/check_multistability_2.txt#L414-L415"
+    },
+    {
+      "id": "B239089-1",
+      "candidate_index": 239089,
+      "kappa": [
+        "555/2048",
+        "103/65536",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "source": "https://arxiv.org/pdf/2608.01116v1#page=22",
+      "corroborating_source": "https://github.com/zjdong-sudo/paper-multistability-results/blob/323360df12c0787f9bbf7f223a6229b98233be39/data/check_multistability_4.txt#L1003-L1006"
+    }
+  ]
+}

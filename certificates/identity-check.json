@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact integer coefficients, sparse multivariate polynomials",
+  "limitations": "Same-agent producer check; no independent review, no root isolation or global stability proof checked here.",
+  "results": [
+    {
+      "candidate_index": 33449,
+      "checks": {
+        "ode_1": true,
+        "substitution_1": true,
+        "ode_2": true,
+        "substitution_2": true,
+        "ode_3": true,
+        "substitution_3": true,
+        "determinant_identity": true,
+        "rank_three": true
+      },
+      "rank_witness": {
+        "columns_one_based": [
+          1,
+          2,
+          3
+        ],
+        "determinant": 3
+      },
+      "q_polynomial_sha256": "482f0e6cdc46979812e9856e498f83672301bd3afc702bc07c028ea1f105c098",
+      "positive_branch": "t>max(0,(c*d-e*b)/(e*a)); D=t*(e*a*t+e*b-c*d)>0"
+    },
+    {
+      "candidate_index": 239089,
+      "checks": {
+        "ode_1": true,
+        "substitution_1": true,
+        "ode_2": true,
+        "substitution_2": true,
+        "ode_3": true,
+        "substitution_3": true,
+        "determinant_identity": true,
+        "rank_three": true
+      },
+      "rank_witness": {
+        "columns_one_based": [
+          1,
+          2,
+          3
+        ],
+        "determinant": 1
+      },
+      "q_polynomial_sha256": "a5a082c9c9e0533e8fe7569220ffc49d1c1eaf9d4764a0ee08d7e9c814f59e13",
+      "positive_branch": "y>max(0,(c*d-a*f)/(c*f)); U=f*(a+c*y)-c*d>0"
+    }
+  ],
+  "elapsed_seconds": 0.001683,
+  "max_rss_platform_units": 20594688,
+  "rss_unit_macos": "bytes",
+  "script_sha256": "da3de241d643c44b8100758d38b4d2f579e99a38e245d44e55dfcdc9b6d14d83",
+  "networks_sha256": "2e767c9c15d797b0b6c9b0fc39d05980ad0f2acbdb261bab66a4c73bcb8f3c73"
+}

@@ -1,0 +1,117 @@
+{
+  "format_version": 1,
+  "input_research_commit": "43b2d6ad400ad9bc25398c11980842f50f7f73fe",
+  "independent_precomparison_commit": "9c1dde75aa476ba15bc1bd97c847c2ad2658ad3d",
+  "postcomparison_commit": "e402dbdf2d2b9484c4aeb2101a15b090b79d8f7f",
+  "upstream_author_commit": "323360df12c0787f9bbf7f223a6229b98233be39",
+  "upstream_mapping_source": "https://github.com/zjdong-sudo/paper-multistability-results/blob/323360df12c0787f9bbf7f223a6229b98233be39/results/375_multistable_networks.json",
+  "historical_files": [
+    {
+      "package_file": "archive/producer/check_identities.py",
+      "research_path": "studies/R023/check_identities.py",
+      "research_commit": "43b2d6ad400a",
+      "sha256": "da3de241d643c44b8100758d38b4d2f579e99a38e245d44e55dfcdc9b6d14d83",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "archive/producer/pilot_exact.py",
+      "research_path": "studies/R023/pilot_exact.py",
+      "research_commit": "43b2d6ad400a",
+      "sha256": "2ae91d941a2ecd96cfbe7ce0abb5efe7c7d992618c477016f06be1a32a123bb7",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "archive/independent/models.py",
+      "research_path": "studies/R023/independent-1/models.py",
+      "research_commit": "9c1dde75aa476ba15bc1bd97c847c2ad2658ad3d",
+      "sha256": "6fb3109eacd4f9b0008d6b196ca9e21789b4776303956b77c3c565ae570a3162",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "archive/independent/derive_checker.py",
+      "research_path": "studies/R023/independent-1/derive_checker.py",
+      "research_commit": "9c1dde75aa476ba15bc1bd97c847c2ad2658ad3d",
+      "sha256": "158dd7d4ef5abb544cc958201187ea5dd66672a75987023feafaf65349e3b89e",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "archive/independent/rational_polynomials.py",
+      "research_path": "studies/R023/independent-1/rational_polynomials.py",
+      "research_commit": "9c1dde75aa476ba15bc1bd97c847c2ad2658ad3d",
+      "sha256": "e5b5bd4f9b886ac2d8b550d5e064e426063459c7ecd142de2067b9a705f61777",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "archive/independent/certify_samples.py",
+      "research_path": "studies/R023/independent-1/certify_samples.py",
+      "research_commit": "9c1dde75aa476ba15bc1bd97c847c2ad2658ad3d",
+      "sha256": "0e9c48e46aab84a98172e0a7db8840fee00c7c7832e059be252a358dad13dcec",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "archive/independent/check_certificates.py",
+      "research_path": "studies/R023/independent-1/check_certificates.py",
+      "research_commit": "9c1dde75aa476ba15bc1bd97c847c2ad2658ad3d",
+      "sha256": "0d28c93ad8e78c9918e0678dfe8fa0496c66b908bd13a9f3df6733369759c3ea",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "archive/independent/derivation.md",
+      "research_path": "studies/R023/independent-1/derivation.md",
+      "research_commit": "9c1dde75aa476ba15bc1bd97c847c2ad2658ad3d",
+      "sha256": "7c32606a5bceac8bd1519f6aad6e612fd2415837f5f1dd609b9b849931217920",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "archive/independent/pre-comparison-manifest.json",
+      "research_path": "studies/R023/independent-1/pre-comparison-manifest.json",
+      "research_commit": "9c1dde75aa476ba15bc1bd97c847c2ad2658ad3d",
+      "sha256": "6e496e892dfd3b4761075eca8582616a3edea107b990092da711cdc5c5e687c0",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "certificates/independent-identities.json",
+      "research_path": "studies/R023/independent-1/independent-identities.json",
+      "research_commit": "9c1dde75aa476ba15bc1bd97c847c2ad2658ad3d",
+      "sha256": "cc0429566c6e4c107501e7b692dbe346527c244a9eb51f8ffb41ccac53a9bf8a",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "certificates/independent-samples.json",
+      "research_path": "studies/R023/independent-1/independent-samples.json",
+      "research_commit": "9c1dde75aa476ba15bc1bd97c847c2ad2658ad3d",
+      "sha256": "417888ad868d1ebd1b125d7975024336caf3a01feed9d9151af88e3098ec3089",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "certificates/certificate-recheck.json",
+      "research_path": "studies/R023/independent-1/certificate-recheck.json",
+      "research_commit": "9c1dde75aa476ba15bc1bd97c847c2ad2658ad3d",
+      "sha256": "65fc0cc118f29740369e64aebd1ce6414e609bc74c705ace0566777a4a737107",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "certificates/identity-check.json",
+      "research_path": "studies/R023/identity-check.json",
+      "research_commit": "43b2d6ad400a",
+      "sha256": "669547b31c2dbaac8eeac467bf53689b015c70e7383bdd09b6437ed32beb1413",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "certificates/pilot-exact.json",
+      "research_path": "studies/R023/pilot-exact.json",
+      "research_commit": "43b2d6ad400a",
+      "sha256": "66246856716f267102ed565f59286191369026c5f18ebdffefdfffe72c2206bd",
+      "bytes_unchanged": true
+    },
+    {
+      "package_file": "certificates/historical-comparison.json",
+      "research_path": "studies/R023/independent-1/comparison-check.json",
+      "research_commit": "43b2d6ad400a",
+      "sha256": "d5549c3228756cde4eadf9333fcbe70aef5c914b75685fb1ac52d0e38dc053ba",
+      "bytes_unchanged": true
+    }
+  ],
+  "historical_freeze_scope": "The original manifest lists 18 research files. Only the files explicitly mapped above are bundled unchanged. Original source extracts, instruction and environment records are omitted. The hash of an omitted file is provenance, not a locally checked copy.",
+  "repackaging": "No author-repository code, JSON dataset or raw logs are bundled. reactions.json is a new paper transcription; samples.json restates three cited rational parameter vectors. Code and computed certificates were written in the R023 study. New paths and runner do not count as another independent mathematical check."
+}

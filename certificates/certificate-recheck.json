@@ -1,0 +1,35 @@
+{
+  "method": "Independent count by three sign-changing intervals + cubic degree; separate SymPy Sturm root counts for numerator/denominator signs; no imports from rational_polynomials.py",
+  "samples": [
+    {
+      "id": "A33449-1",
+      "ivt_disjoint_intervals": 3,
+      "polynomial_degree": 3,
+      "gcd_degree": 0,
+      "separate_sympy_positive_root_count": 3,
+      "rational_sign_checks": 21,
+      "status": "PASS"
+    },
+    {
+      "id": "A33449-2",
+      "ivt_disjoint_intervals": 3,
+      "polynomial_degree": 3,
+      "gcd_degree": 0,
+      "separate_sympy_positive_root_count": 3,
+      "rational_sign_checks": 21,
+      "status": "PASS"
+    },
+    {
+      "id": "B239089-1",
+      "ivt_disjoint_intervals": 3,
+      "polynomial_degree": 3,
+      "gcd_degree": 0,
+      "separate_sympy_positive_root_count": 3,
+      "rational_sign_checks": 21,
+      "status": "PASS"
+    }
+  ],
+  "wall_seconds": 0.06282450002618134,
+  "ru_maxrss_bytes_macos": 61997056,
+  "status": "PASS"
+}

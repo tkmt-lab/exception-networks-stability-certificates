@@ -1,0 +1,15 @@
+Copyright 2026 Tatsuhiko Takimoto, for the original code, computations and text.
+
+Code (*.py), requirements.txt, .gitignore and the CI workflow:
+  Apache License 2.0; see Apache-2.0.txt.
+
+Original text (*.md), data and computation records (*.json), and CITATION.cff:
+  Creative Commons Attribution 4.0 International; see CC-BY-4.0.txt.
+
+These licences apply to different files, not as a choice for every file.
+They do not assert ownership of mathematical facts or change the rights in
+the cited papers and repositories. No third-party source code, paper PDF,
+repository JSON dataset or raw author log is included.
+
+See THIRD_PARTY_NOTICES.md for the sources of the reaction formulas, identifiers
+and three rational parameter vectors. Licence documents retain their own notices.

@@ -1,0 +1,191 @@
+{
+  "independent_freeze_commit": "9c1dde75aa476ba15bc1bd97c847c2ad2658ad3d",
+  "frozen_file_hashes_unchanged": true,
+  "producer_code_read_or_imported": false,
+  "symbolic_comparison": {
+    "33449": {
+      "producer_residual_identity": true,
+      "producer_determinant_identity": true,
+      "coordinate": "t=z/y = D_A(z)/(a*e*z)",
+      "orientation": "strictly decreasing in z",
+      "polynomial_relation": "QA(t(z)) = -b*d*P_A(z)/(a*e**2*z**3)"
+    },
+    "239089": {
+      "producer_residual_identity": true,
+      "producer_determinant_identity": true,
+      "coordinate": "u=y = a*z*(d+e*z)/D_B(z)",
+      "orientation": "strictly increasing in z",
+      "point_equivalence": "Both parametrizations solve the same independently generated ODE on their positive domains; the Cramer parametrization is unique for a fixed z."
+    }
+  },
+  "samples": [
+    {
+      "sample": "A33449-1",
+      "positive_roots": 3,
+      "stable": 1,
+      "matching": [
+        {
+          "producer_root_order": 1,
+          "independent_z_order": 3,
+          "producer_Q_interval_certified": true,
+          "mapped_coordinate_bounds_inside_reported_bounds": true,
+          "mapped_coordinate_bounds_inside_independent_bounds": true,
+          "RH_signs": {
+            "b1": 1,
+            "b2": 1,
+            "b3": -1,
+            "H2": 1
+          },
+          "exponentially_stable": false,
+          "status": "MATCH"
+        },
+        {
+          "producer_root_order": 2,
+          "independent_z_order": 2,
+          "producer_Q_interval_certified": true,
+          "mapped_coordinate_bounds_inside_reported_bounds": true,
+          "mapped_coordinate_bounds_inside_independent_bounds": true,
+          "RH_signs": {
+            "b1": 1,
+            "b2": 1,
+            "b3": 1,
+            "H2": 1
+          },
+          "exponentially_stable": true,
+          "status": "MATCH"
+        },
+        {
+          "producer_root_order": 3,
+          "independent_z_order": 1,
+          "producer_Q_interval_certified": true,
+          "mapped_coordinate_bounds_inside_reported_bounds": true,
+          "mapped_coordinate_bounds_inside_independent_bounds": true,
+          "RH_signs": {
+            "b1": 1,
+            "b2": 1,
+            "b3": -1,
+            "H2": 1
+          },
+          "exponentially_stable": false,
+          "status": "MATCH"
+        }
+      ],
+      "status": "MATCH"
+    },
+    {
+      "sample": "A33449-2",
+      "positive_roots": 3,
+      "stable": 1,
+      "matching": [
+        {
+          "producer_root_order": 1,
+          "independent_z_order": 3,
+          "producer_Q_interval_certified": true,
+          "mapped_coordinate_bounds_inside_reported_bounds": true,
+          "mapped_coordinate_bounds_inside_independent_bounds": true,
+          "RH_signs": {
+            "b1": 1,
+            "b2": 1,
+            "b3": -1,
+            "H2": 1
+          },
+          "exponentially_stable": false,
+          "status": "MATCH"
+        },
+        {
+          "producer_root_order": 2,
+          "independent_z_order": 2,
+          "producer_Q_interval_certified": true,
+          "mapped_coordinate_bounds_inside_reported_bounds": true,
+          "mapped_coordinate_bounds_inside_independent_bounds": true,
+          "RH_signs": {
+            "b1": 1,
+            "b2": 1,
+            "b3": 1,
+            "H2": 1
+          },
+          "exponentially_stable": true,
+          "status": "MATCH"
+        },
+        {
+          "producer_root_order": 3,
+          "independent_z_order": 1,
+          "producer_Q_interval_certified": true,
+          "mapped_coordinate_bounds_inside_reported_bounds": true,
+          "mapped_coordinate_bounds_inside_independent_bounds": true,
+          "RH_signs": {
+            "b1": 1,
+            "b2": 1,
+            "b3": -1,
+            "H2": 1
+          },
+          "exponentially_stable": false,
+          "status": "MATCH"
+        }
+      ],
+      "status": "MATCH"
+    },
+    {
+      "sample": "B239089-1",
+      "positive_roots": 3,
+      "stable": 1,
+      "matching": [
+        {
+          "producer_root_order": 1,
+          "independent_z_order": 1,
+          "producer_Q_interval_certified": true,
+          "mapped_coordinate_bounds_inside_reported_bounds": true,
+          "mapped_coordinate_bounds_inside_independent_bounds": true,
+          "RH_signs": {
+            "b1": 1,
+            "b2": 1,
+            "b3": -1,
+            "H2": 1
+          },
+          "exponentially_stable": false,
+          "status": "MATCH"
+        },
+        {
+          "producer_root_order": 2,
+          "independent_z_order": 2,
+          "producer_Q_interval_certified": true,
+          "mapped_coordinate_bounds_inside_reported_bounds": true,
+          "mapped_coordinate_bounds_inside_independent_bounds": true,
+          "RH_signs": {
+            "b1": 1,
+            "b2": 1,
+            "b3": 1,
+            "H2": 1
+          },
+          "exponentially_stable": true,
+          "status": "MATCH"
+        },
+        {
+          "producer_root_order": 3,
+          "independent_z_order": 3,
+          "producer_Q_interval_certified": true,
+          "mapped_coordinate_bounds_inside_reported_bounds": true,
+          "mapped_coordinate_bounds_inside_independent_bounds": true,
+          "RH_signs": {
+            "b1": 1,
+            "b2": 1,
+            "b3": -1,
+            "H2": 1
+          },
+          "exponentially_stable": false,
+          "status": "MATCH"
+        }
+      ],
+      "status": "MATCH"
+    }
+  ],
+  "mathematical_discrepancies": [],
+  "presentation_differences": [
+    "A: independent variable z yields degree at most 3; producer t=z/y yields a cubic with nonzero leading coefficient for all positive rates. These are equivalent, not a contradiction.",
+    "A root order reverses between t and z; B order agrees between y and z.",
+    "Independent stability proof directly establishes RH positivity for these two networks; producer cites Tang-Zhang Lemma 3."
+  ],
+  "status": "MATCH",
+  "wall_seconds": 18.70357833302114,
+  "ru_maxrss_bytes_macos": 80183296
+}

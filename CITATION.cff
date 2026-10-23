@@ -1,0 +1,53 @@
+{
+  "cff-version": "1.2.0",
+  "message": "This dataset is prepared but not released. Cite this package for its certificates and tools, and the original papers for their networks and results.",
+  "type": "dataset",
+  "title": "Stability certificates for two exceptional reaction networks",
+  "authors": [
+    {
+      "family-names": "Takimoto",
+      "given-names": "Tatsuhiko",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "version": "1.0.0",
+  "license": [
+    "Apache-2.0",
+    "CC-BY-4.0"
+  ],
+  "abstract": "Two known mass-action reaction networks from Tang-Zhang Example 4, explicit all-positive-rate derivations, three fixed rational parameter vectors, exact root and stability certificates, and two implementations. No new classification or general stability principle is claimed.",
+  "references": [
+    {
+      "type": "article",
+      "title": "The Ubiquity of Three Steady States: Minimal Multistable Zero-One Reaction Networks",
+      "authors": [
+        {
+          "family-names": "Tang",
+          "given-names": "Xiaoxian"
+        },
+        {
+          "family-names": "Zhang",
+          "given-names": "Jiandong"
+        }
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.01116v1"
+    },
+    {
+      "type": "article",
+      "title": "Symbolic proof of bistability in reaction networks",
+      "authors": [
+        {
+          "family-names": "Torres",
+          "given-names": "Angélica"
+        },
+        {
+          "family-names": "Feliu",
+          "given-names": "Elisenda"
+        }
+      ],
+      "year": 2020,
+      "url": "https://arxiv.org/abs/1909.13608v2"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Stability certificates for two exceptional reaction networks",
+  "upload_type": "dataset",
+  "description": "Reaction formulas for the two exceptional networks in Tang-Zhang Example 4, two explicit positive-equilibrium derivations, and exact certificates for three rational rate vectors. The written proofs give at most three distinct positive equilibria, exactly one exponentially stable equilibrium when three distinct positive equilibria exist, and at most one exponentially stable positive equilibrium for any strictly positive rates. The tools recompute symbolic identities and the finite certificates. This specializes existing results of Tang-Zhang and Torres-Feliu; no new classification or general stability principle is claimed. The earlier separate implementation knew the expected conclusions; no human expert review or proof-assistant formalization has been completed. Data and text: CC BY 4.0; code: Apache-2.0. Prepared, not released.",
+  "creators": [
+    {
+      "name": "Tatsuhiko Takimoto",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "version": "1.0.0",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "chemical reaction networks",
+    "mass-action kinetics",
+    "positive equilibria",
+    "Routh-Hurwitz",
+    "exact certificates"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://arxiv.org/abs/2608.01116v1",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://arxiv.org/abs/1909.13608v2",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ]
+}

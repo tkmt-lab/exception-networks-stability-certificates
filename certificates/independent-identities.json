@@ -1,0 +1,136 @@
+{
+  "sympy": "1.14.0",
+  "python": "3.14.7",
+  "networks": {
+    "33449": {
+      "mass_action": [
+        "a*z + b*y - d*x",
+        "-b*y - c*y*z + e*x*z",
+        "-a*z + b*y - c*y*z + f*x*y"
+      ],
+      "rank": 3,
+      "full_rank_minor_columns_zero_based": [
+        [
+          0,
+          1,
+          2
+        ],
+        3
+      ],
+      "conservation_left_kernel": [],
+      "D": "b*d + z*(-b*e + c*d)",
+      "admissibility": "z>0 and D(z)>0",
+      "x_of_z": "a*z*(b + c*z)/(b*d + z*(-b*e + c*d))",
+      "y_of_z": "a*e*z**2/(b*d + z*(-b*e + c*d))",
+      "P": "-a*b*e*f*z**2 - a*c*e*f*z**3 + b**2*d**2 - 3*b**2*d*e*z + 2*b**2*e**2*z**2 + 2*b*c*d**2*z - 2*b*c*d*e*z**2 - b*c*e**2*z**3 + c**2*d**2*z**2 + c**2*d*e*z**3",
+      "P_coefficients_descending": [
+        "-a*c*e*f - b*c*e**2 + c**2*d*e",
+        "-a*b*e*f + 2*b**2*e**2 - 2*b*c*d*e + c**2*d**2",
+        "-3*b**2*d*e + 2*b*c*d**2",
+        "b**2*d**2"
+      ],
+      "residual_formula": "-a*z**1*P/D**2",
+      "determinant_at_root": "-a*z**1*Pprime/D",
+      "fluxes": [
+        "p",
+        "q",
+        "r",
+        "p + q",
+        "q + r",
+        "p - q + r"
+      ],
+      "flux_condition": "p>0,q>0,r>0,p-q+r>0",
+      "flux_jacobian": [
+        [
+          "(-p - q)/x",
+          "q/y",
+          "p/z"
+        ],
+        [
+          "(q + r)/x",
+          "(-q - r)/y",
+          "q/z"
+        ],
+        [
+          "(p - q + r)/x",
+          "p/y",
+          "(-p - r)/z"
+        ]
+      ],
+      "positive_principal_minors": [
+        "p*(q + r)/(x*y)",
+        "q*(2*p + r)/(x*z)",
+        "r*(p + q + r)/(y*z)"
+      ],
+      "H2_positive_identity": true,
+      "origin_charpoly": "(a + lambda)*(b + lambda)*(d + lambda)",
+      "symbolic_checks": "PASS"
+    },
+    "239089": {
+      "mass_action": [
+        "a*z + c*y*z - d*x",
+        "a*z - b*y - c*y*z + e*x*z",
+        "-c*y*z - e*x*z + f*x*y"
+      ],
+      "rank": 3,
+      "full_rank_minor_columns_zero_based": [
+        [
+          0,
+          1,
+          2
+        ],
+        1
+      ],
+      "conservation_left_kernel": [],
+      "D": "-c*e*z**2 + d*(b + c*z)",
+      "admissibility": "z>0 and D(z)>0",
+      "x_of_z": "a*z*(b + 2*c*z)/(-c*e*z**2 + d*(b + c*z))",
+      "y_of_z": "a*z*(d + e*z)/(-c*e*z**2 + d*(b + c*z))",
+      "P": "-a*b*d*f - a*b*e*f*z - 2*a*c*d*f*z - 2*a*c*e*f*z**2 + b**2*d*e + b*c*d**2 + 4*b*c*d*e*z - b*c*e**2*z**2 + c**2*d**2*z + 2*c**2*d*e*z**2 - 3*c**2*e**2*z**3",
+      "P_coefficients_descending": [
+        "-3*c**2*e**2",
+        "-2*a*c*e*f - b*c*e**2 + 2*c**2*d*e",
+        "-a*b*e*f - 2*a*c*d*f + 4*b*c*d*e + c**2*d**2",
+        "-a*b*d*f + b**2*d*e + b*c*d**2"
+      ],
+      "residual_formula": "-a*z**2*P/D**2",
+      "determinant_at_root": "-a*z**2*Pprime/D",
+      "fluxes": [
+        "p",
+        "p - q + r",
+        "q",
+        "p + q",
+        "r",
+        "q + r"
+      ],
+      "flux_condition": "p>0,q>0,r>0,p-q+r>0",
+      "flux_jacobian": [
+        [
+          "(-p - q)/x",
+          "q/y",
+          "(p + q)/z"
+        ],
+        [
+          "r/x",
+          "(-p - r)/y",
+          "(p - q + r)/z"
+        ],
+        [
+          "q/x",
+          "r/y",
+          "(-q - r)/z"
+        ]
+      ],
+      "positive_principal_minors": [
+        "p*(p + q + r)/(x*y)",
+        "r*(p + q)/(x*z)",
+        "q*(p + 2*r)/(y*z)"
+      ],
+      "H2_positive_identity": true,
+      "origin_charpoly": "lambda*(b + lambda)*(d + lambda)",
+      "symbolic_checks": "PASS"
+    }
+  },
+  "wall_seconds": 0.5325681669637561,
+  "ru_maxrss_bytes_macos": 65290240
+}

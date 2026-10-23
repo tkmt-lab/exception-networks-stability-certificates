@@ -1,0 +1,104 @@
+{
+  "format_version": 1,
+  "title": "Stability certificates for two exceptional reaction networks",
+  "version": "1.0.0",
+  "prepared_not_released": true,
+  "release_kind": [
+    "data",
+    "tool"
+  ],
+  "network_ids": [
+    33449,
+    239089
+  ],
+  "assumptions": [
+    "Exactly the two networks in Tang-Zhang Example 4, in the reaction order of reactions.json.",
+    "Mass-action kinetics; all six rate constants strictly positive.",
+    "Positive equilibrium means all three concentrations strictly positive.",
+    "Exponential stability means all Jacobian eigenvalues have strictly negative real part."
+  ],
+  "claims": [
+    {
+      "id": "positive-bound",
+      "kind": "written-proof-with-symbolic-identity-checks",
+      "statement": "For each of the two networks and every strictly positive rate vector, there are at most three distinct positive equilibria.",
+      "evidence": [
+        "docs/ratio-y-derivation.md",
+        "docs/z-derivation.md"
+      ],
+      "proof_assistant_verified": false
+    },
+    {
+      "id": "three-implies-one",
+      "kind": "written-proof-with-symbolic-identity-checks",
+      "statement": "For each network, if there are three distinct positive equilibria, all three are nondegenerate and exactly one is exponentially stable.",
+      "evidence": [
+        "docs/ratio-y-derivation.md",
+        "docs/z-derivation.md"
+      ],
+      "proof_assistant_verified": false
+    },
+    {
+      "id": "stable-bound",
+      "kind": "written-proof-with-symbolic-identity-checks",
+      "statement": "For each network and every strictly positive rate vector, at most one positive equilibrium is exponentially stable, including when other positive equilibria are degenerate.",
+      "evidence": [
+        "docs/ratio-y-derivation.md",
+        "docs/z-derivation.md"
+      ],
+      "proof_assistant_verified": false
+    },
+    {
+      "id": "fixed-certificates",
+      "kind": "recomputed-finite-certificates",
+      "statement": "Each of the three fixed rational samples has three nondegenerate positive equilibria and one exponentially stable positive equilibrium. Every archived rational interval and Hurwitz sign is recomputed and compared.",
+      "evidence": [
+        "certificates/pilot-exact.json",
+        "certificates/independent-samples.json",
+        "certificates/certificate-recheck.json",
+        "verify.py"
+      ]
+    }
+  ],
+  "fixed_samples": [
+    {
+      "id": "A33449-1",
+      "positive_equilibria": 3,
+      "exponentially_stable": 1
+    },
+    {
+      "id": "A33449-2",
+      "positive_equilibria": 3,
+      "exponentially_stable": 1
+    },
+    {
+      "id": "B239089-1",
+      "positive_equilibria": 3,
+      "exponentially_stable": 1
+    }
+  ],
+  "prior_work": {
+    "Tang-Zhang": "The networks, their exceptional role, the bound of three, the 375/373 classification and Lemma 3 belong to Tang-Zhang. The package does not independently audit that classification.",
+    "Torres-Feliu": "The determinant reduction and alternating-stability method specialize Proposition 2 and Theorem 1; they are not a new general principle."
+  },
+  "verification_limits": [
+    "The second implementation was fixed before reading the first derivation, code or outputs, but its task disclosed the expected claims and sample counts.",
+    "Network matrices and parameter vectors were shared inputs; this was not independent acquisition of all inputs.",
+    "The package preparation and rerun use both implementations; they add no independent mathematical derivation.",
+    "The written positivity and root-sign arguments are not checked by a proof assistant.",
+    "No human expert review has been completed.",
+    "Research commit identifiers and historical hashes record provenance; they do not independently authenticate chronology."
+  ],
+  "not_claimed": [
+    "Novelty or priority of the two-network conclusions.",
+    "A new classification, elimination method or general stability principle.",
+    "A theoretical explanation of the upper bound across all 375 networks, or the common structure of the 373 multistable networks; those questions remain unresolved here.",
+    "A new discovery of the two exceptional networks or the 375/373 classification.",
+    "Three positive equilibria for every strictly positive rate vector.",
+    "Nonlinear asymptotic stability of degenerate equilibria.",
+    "A bound on boundary attractors, cycles or all attracting sets.",
+    "Dissipativity, global dynamics or biological realizability.",
+    "A general-purpose solver or certification of arbitrary parameter vectors.",
+    "Human peer review, formal verification, blinded testing or cited-author endorsement."
+  ]
+}

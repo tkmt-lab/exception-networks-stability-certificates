@@ -1,0 +1,25 @@
+{
+  "phase": "independent conclusion, before reading producer results",
+  "created_utc": "2026-10-23T22:34:24.125014+00:00",
+  "files": {
+    "derivation.md": "7c32606a5bceac8bd1519f6aad6e612fd2415837f5f1dd609b9b849931217920",
+    "pre-comparison-conclusion.md": "ddd97f659042da62ad8770379461245db131afe4f9f08452c2834dc6acd7acdf",
+    "models.py": "6fb3109eacd4f9b0008d6b196ca9e21789b4776303956b77c3c565ae570a3162",
+    "derive_checker.py": "158dd7d4ef5abb544cc958201187ea5dd66672a75987023feafaf65349e3b89e",
+    "rational_polynomials.py": "e5b5bd4f9b886ac2d8b550d5e064e426063459c7ecd142de2067b9a705f61777",
+    "certify_samples.py": "0e9c48e46aab84a98172e0a7db8840fee00c7c7832e059be252a358dad13dcec",
+    "check_certificates.py": "0d28c93ad8e78c9918e0678dfe8fa0496c66b908bd13a9f3df6733369759c3ea",
+    "run_bounded.py": "ed1da11111b637e09a5d7c0a4db34041078f2bb977bad65d51670c0b584c1df4",
+    "requirements.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+    "independent-identities.json": "cc0429566c6e4c107501e7b692dbe346527c244a9eb51f8ffb41ccac53a9bf8a",
+    "independent-samples.json": "417888ad868d1ebd1b125d7975024336caf3a01feed9d9151af88e3098ec3089",
+    "certificate-recheck.json": "65fc0cc118f29740369e64aebd1ce6414e609bc74c705ace0566777a4a737107",
+    "input/README.md": "2798a6bb66f86ef7e032dfa34a66df96ae96603d209333feef6ef0586ac4b0e6",
+    "input/networks.json": "2e767c9c15d797b0b6c9b0fc39d05980ad0f2acbdb261bab66a4c73bcb8f3c73",
+    "input/samples.json": "6c12d1ee307c8522520e488dc7dbd03701596e9f8cc08a26c0a929bf9c74ef14",
+    "input/papers.json": "75e25e472abd29699aa5fe01d3b62a9681c54f34eeca5741f23f728a868b47d6",
+    "instruction.md": "47eef1c4cfb51dab199ce8dc2a67b1257e8d50b47eb5b0b726309ca8ff30cc4a",
+    "preflight.json": "3c295238351ec94cd3a19b977194981b1d86c1ddf660e058c574bc804fffbe9c"
+  },
+  "producer_results_opened": false
+}
