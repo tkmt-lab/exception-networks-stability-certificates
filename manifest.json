@@ -4,15 +4,15 @@
   "files": {
     ".github/workflows/verify.yml": "7f589ab0b84d0604f21403d0581f43eac9d27c1de73933b9d04244af317523b5",
     ".gitignore": "1cad686f624862b9c353838ac44e008e28bdb4b23a28bfd1e64a81ee42e450ec",
-    ".zenodo.json": "308505eab1eacebe9359171d019741153da02ae06bde12ce0aec6d6809a57d4f",
-    "AGENTS.md": "7138fc4a74de7e7db00ee3e08352eea6487185c4d70435d2d8e7906a399f4261",
+    ".zenodo.json": "4b0d8887e781d18e29b4a0fe0319e24a55d5f10963818c76e1896facacec290c",
+    "AGENTS.md": "caf6e707c798b58a9b19b99a6cb21ad751f50c7221566ae2629f3c2aae794121",
     "Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
     "CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
-    "CITATION.cff": "fcb6ded6d414ca97136e442769edde935a3df86a8a135d506cd2ee83a65d45ea",
+    "CITATION.cff": "7182f624c37b462933bbcaf101ad222c84773f28843e69ee3743b6ce9e09e958",
     "LICENSE": "0dc90de4e045282b071baff62659afe1a13110340735e26610c7a82ce69b49ff",
-    "README.md": "198ac32e0eeb9cc52fba1bfe18bd97ade91e9d4a11350dcd796c9f6c972843c8",
+    "README.md": "9b6a7dda07e33684dfbd119d23c401c8348808c4e1063bcf3b31dbdecc450085",
     "THIRD_PARTY_NOTICES.md": "1e50a1dec2129cd3d0a6bea680c5fe2a8bc40169696565c070b0568aa7992bdd",
-    "VERIFICATION-RECORD.md": "0087b318ec9a86580965a126870e5766a9f0c00ee74417ae3cdee18c0e0bbf13",
+    "VERIFICATION-RECORD.md": "d65a36e8e31f3d4316e789ebaa12c574bb09e2f545f9e8889a84817e75a588b1",
     "archive/independent/certify_samples.py": "0e9c48e46aab84a98172e0a7db8840fee00c7c7832e059be252a358dad13dcec",
     "archive/independent/check_certificates.py": "0d28c93ad8e78c9918e0678dfe8fa0496c66b908bd13a9f3df6733369759c3ea",
     "archive/independent/derivation.md": "7c32606a5bceac8bd1519f6aad6e612fd2415837f5f1dd609b9b849931217920",
@@ -28,7 +28,7 @@
     "certificates/independent-identities.json": "cc0429566c6e4c107501e7b692dbe346527c244a9eb51f8ffb41ccac53a9bf8a",
     "certificates/independent-samples.json": "417888ad868d1ebd1b125d7975024336caf3a01feed9d9151af88e3098ec3089",
     "certificates/pilot-exact.json": "66246856716f267102ed565f59286191369026c5f18ebdffefdfffe72c2206bd",
-    "claims.json": "22fffa8ce57352312b322fa526319d1888367bebff184b02b2a4d1ab85cb744c",
+    "claims.json": "8063a279980345a3bddbebbb504179ee70009598fbc1cbb5dc967c827781fd81",
     "docs/ratio-y-derivation.md": "da8e415c47e015bca0819312ebf6415c839c7989c4cc115a7e6cd6cb4607945c",
     "docs/z-derivation.md": "7fdaa127e9f31dd5f4af984514e2cd29d7ce578ecade8cb152942b6e167d6c56",
     "provenance.json": "68204ec2c70417f10a2616b1fa88dc99beb4c2615338b05586c4deef61d334c1",
@@ -36,6 +36,6 @@
     "requirements.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
     "samples.json": "5d61594c38a443cad8d2347465e79060e7faa3232ea68d1a925a5c866772884b",
     "tools/reconcile.py": "b90cd3832d59a6a9c804e3526a219d46fae73527b3f8d0ca261d82b45a6b56c3",
-    "verify.py": "409281ab9e7e7508ea081e1ea04b1ecde95c6e16b6e8d231545be5739f9c0ec9"
+    "verify.py": "2c8222ed6ee4ac6ff2ceee12906f918d8b8d159366c2cdd407728ba59e990a77"
   }
 }

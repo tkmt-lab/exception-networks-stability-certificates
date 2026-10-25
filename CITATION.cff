@@ -1,6 +1,6 @@
 {
   "cff-version": "1.2.0",
-  "message": "This dataset is prepared but not released. Cite this package for its certificates and tools, and the original papers for their networks and results.",
+  "message": "Cite this package for its certificates and tools, and the original papers for their networks and results.",
   "type": "dataset",
   "title": "Stability certificates for two exceptional reaction networks",
   "authors": [

@@ -2,7 +2,7 @@
   "format_version": 1,
   "title": "Stability certificates for two exceptional reaction networks",
   "version": "1.0.0",
-  "prepared_not_released": true,
+  "prepared_not_released": false,
   "release_kind": [
     "data",
     "tool"

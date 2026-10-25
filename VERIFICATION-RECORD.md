@@ -87,5 +87,4 @@ review. The original research workspace supplied no runtime input files.
 
 The final preparation report, including the subsequent check of the final
 package commit, is kept in the research workspace and is not bundled here.
-GitHub CI is configured to run the same verification command on Ubuntu; it has
-not been run remotely at this preparation stage.
+GitHub CI runs the same verification command on Ubuntu for the released commit.

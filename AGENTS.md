@@ -1,7 +1,7 @@
 # Reading and checking this package
 
 Read README.md, claims.json and VERIFICATION-RECORD.md before interpreting results.
-This is a prepared dataset and tools package, not a released paper or classification.
+This is a dataset and tools package for two specific networks, not a paper or a general classification.
 Run `python3 -B verify.py` after installing requirements.txt in a writable copy.
 The command needs no network, credentials or original research workspace.
 

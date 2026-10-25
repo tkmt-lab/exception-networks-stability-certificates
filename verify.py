@@ -43,7 +43,7 @@ def integrity():
         require(manifest["files"][item["package_file"]] == item["sha256"],
                 f"historical file changed: {item['package_file']}")
     claims = read(ROOT / "claims.json")
-    require(claims["prepared_not_released"] is True, "release-state metadata differs")
+    require(claims["prepared_not_released"] is False, "release-state metadata differs")
     require(claims["network_ids"] == [33449, 239089], "claim network set differs")
     require(claims["fixed_samples"] == [
         {"id": name, "positive_equilibria": 3, "exponentially_stable": 1}

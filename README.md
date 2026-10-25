@@ -1,6 +1,6 @@
 # Stability certificates for two exceptional reaction networks
 
-Prepared version 1.0.0; not released.
+Version 1.0.0.
 
 This package contains the two reaction networks in Tang–Zhang's Example 4,
 two derivations of their positive-equilibrium bounds, and exact certificates
